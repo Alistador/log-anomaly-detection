@@ -1,0 +1,6 @@
+drain3==0.9.11
+numpy==2.2.0
+pandas==2.2.3
+scikit-learn==1.6.0
+matplotlib==3.9.3
+pyparsing==3.2.0  # pulled in by matplotlib; 3.3 floods the test output with deprecation warnings
