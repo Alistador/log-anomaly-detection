@@ -1,0 +1,108 @@
+{
+  "train_days": 0.8016203703703704,
+  "test_days": 0.8016782407407408,
+  "test_blocks": 362104,
+  "test_anomalies": 8521,
+  "detectors": {
+    "pca": {
+      "average_precision": 0.47701250530951383,
+      "budgets": [
+        {
+          "budget_per_day": 20,
+          "threshold": 925.1285633857879,
+          "alerts": 43,
+          "alerts_per_day": 53.63747924637262,
+          "true_alerts": 39,
+          "precision": 0.9069767441860465,
+          "recall": 0.0045769275906583735
+        },
+        {
+          "budget_per_day": 100,
+          "threshold": 118.65020919502705,
+          "alerts": 105,
+          "alerts_per_day": 130.97524002021223,
+          "true_alerts": 92,
+          "precision": 0.8761904761904762,
+          "recall": 0.010796854829245394
+        },
+        {
+          "budget_per_day": 500,
+          "threshold": 39.34932611807806,
+          "alerts": 295,
+          "alerts_per_day": 367.9780552948819,
+          "true_alerts": 273,
+          "precision": 0.9254237288135593,
+          "recall": 0.03203849313460862
+        },
+        {
+          "budget_per_day": 2000,
+          "threshold": 0.22329010602632507,
+          "alerts": 1143,
+          "alerts_per_day": 1425.7590413628816,
+          "true_alerts": 773,
+          "precision": 0.6762904636920385,
+          "recall": 0.09071705198920314
+        },
+        {
+          "budget_per_day": 10000,
+          "threshold": 0.07604816146922833,
+          "alerts": 4265,
+          "alerts_per_day": 5320.089511297192,
+          "true_alerts": 2585,
+          "precision": 0.6060961313012896,
+          "recall": 0.30336814927825373
+        }
+      ]
+    },
+    "iforest": {
+      "average_precision": 0.8112285214138487,
+      "budgets": [
+        {
+          "budget_per_day": 20,
+          "threshold": 0.769927345969029,
+          "alerts": 2,
+          "alerts_per_day": 2.494766476575471,
+          "true_alerts": 2,
+          "precision": 1.0,
+          "recall": 0.0002347142354183781
+        },
+        {
+          "budget_per_day": 100,
+          "threshold": 0.756661688305149,
+          "alerts": 36,
+          "alerts_per_day": 44.905796578358476,
+          "true_alerts": 23,
+          "precision": 0.6388888888888888,
+          "recall": 0.0026992137073113486
+        },
+        {
+          "budget_per_day": 500,
+          "threshold": 0.7545030244904606,
+          "alerts": 36,
+          "alerts_per_day": 44.905796578358476,
+          "true_alerts": 23,
+          "precision": 0.6388888888888888,
+          "recall": 0.0026992137073113486
+        },
+        {
+          "budget_per_day": 2000,
+          "threshold": 0.7545030244904606,
+          "alerts": 36,
+          "alerts_per_day": 44.905796578358476,
+          "true_alerts": 23,
+          "precision": 0.6388888888888888,
+          "recall": 0.0026992137073113486
+        },
+        {
+          "budget_per_day": 10000,
+          "threshold": 0.5505335008241176,
+          "alerts": 6867,
+          "alerts_per_day": 8565.78069732188,
+          "true_alerts": 5069,
+          "precision": 0.7381680500946556,
+          "recall": 0.5948832296678793
+        }
+      ]
+    }
+  }
+}
